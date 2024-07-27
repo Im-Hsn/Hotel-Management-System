@@ -3,7 +3,16 @@
 ## Overview
 This C++ program aims to develop a hotel reservation application. It allows users to manage room reservations, handle user authentication, and generate invoices. The application utilizes CSV files as a database and features a modern, user-friendly interface.
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Functionality](#functionality)
+- [Development](#development)
+- [Interface](#interface)
+- [Showcase](#showcase)
+
 ## Functionality
+
 1. **User Authentication:**
    - New users are prompted to create an account with unique identifiers.
    - Returning users authenticate using their email address and password.
@@ -12,8 +21,8 @@ This C++ program aims to develop a hotel reservation application. It allows user
 2. **Administrator and Client Roles:**
    - **Administrator:**
      - Add, delete, or modify room data in the "room.csv" file.
-   - Administer room-related tasks through the console.
-   - Maintain data integrity by checking for room redundancy.
+     - Administer room-related tasks through the console.
+     - Maintain data integrity by checking for room redundancy.
    - **Client:**
      - Reserve a room by specifying the reservation dates.
      - View available rooms on selected dates.
@@ -25,10 +34,11 @@ This C++ program aims to develop a hotel reservation application. It allows user
    - Generate an invoice in a PDF file, including the user's name and sorted reserved rooms by price.
 
 ## Development
+
 - **Structures:**
-  - Client Structure: int ID, string firstName, string lastName, string password, string address, string tel, room *r.
-  - Room Structure: int num, string address, string type, double price, string *options, date start_date, date end_date.
-  - Date Structure: int day, int month, int year.
+  - Client Structure: `int ID`, `string firstName`, `string lastName`, `string password`, `string address`, `string tel`, `room *r`.
+  - Room Structure: `int num`, `string address`, `string type`, `double price`, `string *options`, `date start_date`, `date end_date`.
+  - Date Structure: `int day`, `int month`, `int year`.
 
 - **File Handling:**
   - Utilizes CSV files as a database for storage.
@@ -38,8 +48,24 @@ This C++ program aims to develop a hotel reservation application. It allows user
   - Incorporates functions, procedures, dynamic arrays, and pointers.
 
 ## Interface
+
 - Utilizes a visually appealing and modern interface.
 - Launches in full screen for an enhanced user experience.
 - Eliminates unnecessary prints for a clean presentation.
 
 **Note:** This project enhances the hotel reservation system with a user-friendly interface, better security measures, and efficient data storage using CSV files.
+
+## Showcase
+
+### Home Page
+![Home](screenshots/Home.png)
+
+### Rooms Page
+![Rooms](screenshots/Rooms.png)
+
+### Admin Page
+![Admin](screenshots/Admin.png)
+
+---
+
+[**Return to Top**](#overview)
